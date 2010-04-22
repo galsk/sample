@@ -1,0 +1,1062 @@
+Script started on Thu 22 Apr 2010 06:20:17 PM BRT
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ script/generate rspec_controller Pages home contact
+      exists  app/controllers/
+      exists  app/helpers/
+      exists  app/views/pages
+      create  spec/controllers/
+      create  spec/helpers/
+      create  spec/views/pages
+      create  spec/controllers/pages_controller_spec.rb
+      create  spec/helpers/pages_helper_spec.rb
+   identical  app/controllers/pages_controller.rb
+   identical  app/helpers/pages_helper.rb
+      create  spec/views/pages/home.html.erb_spec.rb
+   identical  app/views/pages/home.html.erb
+      create  spec/views/pages/contact.html.erb_spec.rb
+   identical  app/views/pages/contact.html.erb
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ rm -rf test/
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ rm -rf spec/views
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ rm -f spec/helpers/pages_helper_spec.rb
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ spec spec/
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.262464 seconds
+
+[32m3 examples, 0 failures[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ at[Kutospec
+loading autotest/rails_rspec
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.129028 seconds
+
+[32m3 examples, 0 failures[0m
+"3 examples, 0 failures"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.000688 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autotest
+loading autotest/rails
+Autotest style autotest/rails doesn't seem to exist. Aborting.
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autotestspec
+loading autotest/rails_rspec
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.125918 seconds
+
+[32m3 examples, 0 failures[0m
+"3 examples, 0 failures"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.000896 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ sudo gem install autotest-rails
+[sudo] password for gal: 
+Successfully installed autotest-rails-4.1.0
+1 gem installed
+Installing ri documentation for autotest-rails-4.1.0...
+Installing RDoc documentation for autotest-rails-4.1.0...
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ sudo gem install autotest-rails[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cautospec[Ktest
+loading autotest/rails
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+
+# Waiting since 2010-04-22 18:38:48
+
+^[[A^[[B        ^CInterrupt a second time to quit
+
+# Waiting since 2010-04-22 18:39:01
+
+^Z
+[1]+  Stopped                 autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autotestsudo gem install autotest-rails[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cautospec[Ktestspectestspec
+loading autotest/rails_rspec
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.161522 seconds
+
+[32m3 examples, 0 failures[0m
+"3 examples, 0 failures"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.000672 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ au[K[Kautospec
+loading autotest/rails_rspec
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.124229 seconds
+
+[32m3 examples, 0 failures[0m
+"3 examples, 0 failures"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.000909 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ auto[K[K[K[Kautospectest
+loading autotest/rails
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+
+# Waiting since 2010-04-22 18:47:20
+
+^Z
+[2]+  Stopped                 autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autotestspec
+loading autotest/rails_rspec
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.126068 seconds
+
+[32m3 examples, 0 failures[0m
+"3 examples, 0 failures"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.000976 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autospec
+loading autotest/rails_rspec
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31mActionController::UnknownAction in 'PagesController GET 'about' should be successful'
+No action responded to about. Actions: contact and home[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:23:
+
+Finished in 0.136679 seconds
+
+[31m3 examples, 1 failure[0m
+"3 examples, 1 failure"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.001013 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autospectest
+loading autotest/rails
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+
+# Waiting since 2010-04-22 18:59:52
+
+
+# Waiting since 2010-04-22 19:00:09
+
+^Z
+[3]+  Stopped                 autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autotestspec
+loading autotest/rails_rspec
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31mNoMethodError in 'PagesController GET 'about' should be successful'
+undefined method `successend?' for #<ActionController::TestResponse:0xb7084dfc>[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:24:
+
+Finished in 0.130485 seconds
+
+[31m3 examples, 1 failure[0m
+"3 examples, 1 failure"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.001167 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autospectestspec[Kscript/server
+=> Booting WEBrick
+=> Rails 2.3.5 application starting on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2010-04-22 19:03:10] INFO  WEBrick 1.3.1
+[2010-04-22 19:03:10] INFO  ruby 1.8.7 (2009-06-12) [i486-linux]
+[2010-04-22 19:03:25] INFO  WEBrick::HTTPServer#start: pid=5662 port=3000
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-22 19:03:26) [GET]
+
+ActionController::RoutingError (No route matches "/abuot" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-04-22 19:03:36) [GET]
+Rendering pages/about
+Completed in 44ms (View: 35, DB: 0) | 200 OK [http://0.0.0.0/pages/about]
+^Z
+[4]+  Stopped                 script/server
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ script/server[5Pautospectestspecscript/server[Kspec s[K/spec
+/usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/lib/spec/runner/options.rb:283:in `files_to_load': File or directory not found: /spec (RuntimeError)
+	from /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/lib/spec/runner/options.rb:275:in `each'
+	from /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/lib/spec/runner/options.rb:275:in `files_to_load'
+	from /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/lib/spec/runner/options.rb:133:in `run_examples'
+	from /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/lib/spec/runner/command_line.rb:9:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec:5
+	from /usr/bin/spec:19:in `load'
+	from /usr/bin/spec:19
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ spec spec/
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31mNoMethodError in 'PagesController GET 'about' should be successful'
+undefined method `successend?' for #<ActionController::TestResponse:0xb71785b0>[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:24:
+
+Finished in 0.12974 seconds
+
+[31m3 examples, 1 failure[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ spec spec/
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.130874 seconds
+
+[32m3 examples, 0 failures[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ spec spec/
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+1)
+[31m'PagesController GET 'about' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:40:
+
+2)
+[31m'PagesController GET 'contact' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:27:
+
+3)
+[31m'PagesController GET 'home' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:14:
+
+Finished in 0.370444 seconds
+
+[31m6 examples, 3 failures[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autotest
+loading autotest/rails
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+
+# Waiting since 2010-04-22 19:11:34
+
+
+# Waiting since 2010-04-22 19:12:37
+
+l
+^Z
+[5]+  Stopped                 autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autospec
+loading autotest/rails_rspec
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31m'PagesController GET 'about' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:40:
+
+2)
+[31m'PagesController GET 'contact' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:27:
+
+Finished in 0.255143 seconds
+
+[31m6 examples, 2 failures[0m
+"6 examples, 2 failures"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.000644 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ ao[Kutotest
+loading autotest/rails
+/home/gal/.autotest:17: warning: `&' interpreted as argument prefix
+/home/gal/.autotest:17: warning: unused literal ignored
+
+# Waiting since 2010-04-22 19:13:56
+
+^Z
+[6]+  Stopped                 autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ notuf[K[Kify-send "g[Khello worel[K[Kld"
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ notify-send "hello world"autotest[K
+loading autotest/rails
+^Z
+[7]+  Stopped                 autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ apt-get install  libinotify-ruby libgtk2-ruby  libnotify-dev
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ sodu apt-get install  libinotify-ruby libgtk2-ruby  libnotify-dev
+sodu: command not found
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ sudo apt-get install  libinotify-ruby libgtk2-ruby  libnotify-dev
+[sudo] password for gal: 
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 93%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following extra packages will be installed:
+  debhelper html2text intltool-debian libatk1-ruby1.8 libatk1.0-dev libcairo-ruby1.8 libcairo2-dev libdbus-1-dev
+  libdbus-glib-1-dev libdirectfb-dev libdirectfb-extra libfontconfig1-dev libfreetype6-dev libgdk-pixbuf2-ruby1.8
+  libglib2-ruby1.8 libglib2.0-dev libgtk2-ruby1.8 libgtk2.0-dev libice-dev libinotify-ruby1.8 libjpeg62-dev
+  libmail-sendmail-perl libpango1-ruby1.8 libpango1.0-dev libpixman-1-dev libpng12-dev libpthread-stubs0
+  libpthread-stubs0-dev libsm-dev libsys-hostname-long-perl libsysfs-dev libx11-dev libxau-dev libxcb-render-util0-dev
+  libxcb-render0-dev libxcb1-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxdmcp-dev libxext-dev libxfixes-dev
+  libxft-dev libxi-dev libxinerama-dev libxrandr-dev libxrender-dev po-debconf x11proto-composite-dev x11proto-core-dev
+  x11proto-damage-dev x11proto-fixes-dev x11proto-input-dev x11proto-kb-dev x11proto-randr-dev x11proto-render-dev
+  x11proto-xext-dev x11proto-xinerama-dev xtrans-dev
+Suggested packages:
+  dh-make libcairo2-doc libglib2.0-doc libgtk2.0-doc libpango1.0-doc imagemagick libmail-box-perl
+The following NEW packages will be installed:
+  debhelper html2text intltool-debian libatk1-ruby1.8 libatk1.0-dev libcairo-ruby1.8 libcairo2-dev libdbus-1-dev
+  libdbus-glib-1-dev libdirectfb-dev libdirectfb-extra libfontconfig1-dev libfreetype6-dev libgdk-pixbuf2-ruby1.8
+  libglib2-ruby1.8 libglib2.0-dev libgtk2-ruby libgtk2-ruby1.8 libgtk2.0-dev libice-dev libinotify-ruby libinotify-ruby1.8
+  libjpeg62-dev libmail-sendmail-perl libnotify-dev libpango1-ruby1.8 libpango1.0-dev libpixman-1-dev libpng12-dev
+  libpthread-stubs0 libpthread-stubs0-dev libsm-dev libsys-hostname-long-perl libsysfs-dev libx11-dev libxau-dev
+  libxcb-render-util0-dev libxcb-render0-dev libxcb1-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxdmcp-dev
+  libxext-dev libxfixes-dev libxft-dev libxi-dev libxinerama-dev libxrandr-dev libxrender-dev po-debconf
+  x11proto-composite-dev x11proto-core-dev x11proto-damage-dev x11proto-fixes-dev x11proto-input-dev x11proto-kb-dev
+  x11proto-randr-dev x11proto-render-dev x11proto-xext-dev x11proto-xinerama-dev xtrans-dev
+0 upgraded, 62 newly installed, 0 to remove and 0 not upgraded.
+Need to get 12.9MB of archives.
+After this operation, 44.8MB of additional disk space will be used.
+Do you want to continue [Y/n]? y
+0% [Working]            0% [Connecting to us.archive.ubuntu.com (91.189.88.45)]                                                       Get:1 http://us.archive.ubuntu.com karmic/main x11proto-core-dev 7.0.15-1 [94.0kB]
+                                                       0% [1 x11proto-core-dev 2572/94.0kB 2%]                                       0% [1 x11proto-core-dev 19852/94.0kB 21%]0% [1 x11proto-core-dev 84652/94.0kB 90%]                                         0% [Waiting for headers]                        Get:2 http://us.archive.ubuntu.com karmic/main libice-dev 2:1.0.5-1 [61.9kB]
+                        0% [2 libice-dev 3282/61.9kB 5%]                                Get:3 http://us.archive.ubuntu.com karmic/main libsm-dev 2:1.1.0-2 [25.7kB]
+                                1% [3 libsm-dev 1596/25.7kB 6%]                               Get:4 http://us.archive.ubuntu.com karmic/main libxau-dev 1:1.0.4-2 [16.7kB]
+                               1% [4 libxau-dev 8684/16.7kB 52%]                                 Get:5 http://us.archive.ubuntu.com karmic/main libxdmcp-dev 1:1.0.2-3 [20.0kB]
+                                 1% [5 libxdmcp-dev 8980/20.0kB 44%]                                   Get:6 http://us.archive.ubuntu.com karmic/main x11proto-input-dev 1.5.0-2ubuntu1 [12.1kB]
+                                   1% [6 x11proto-input-dev 202/12.1kB 1%]                                       Get:7 http://us.archive.ubuntu.com karmic/main x11proto-kb-dev 1.0.3-3ubuntu1 [27.4kB]
+                                       1% [7 x11proto-kb-dev 2188/27.4kB 7%]                                     Get:8 http://us.archive.ubuntu.com karmic/main xtrans-dev 1.2.4-1 [67.4kB]
+                                     2% [8 xtrans-dev 1829/67.4kB 2%]                                2% [Waiting for headers]                        Get:9 http://us.archive.ubuntu.com karmic/main libpthread-stubs0 0.1-2 [2,812B]
+                        2% [9 libpthread-stubs0 2812/2,812B 100%]                                         2% [Waiting for headers]                        Get:10 http://us.archive.ubuntu.com karmic/main libpthread-stubs0-dev 0.1-2 [3,090B]
+                        2% [10 libpthread-stubs0-dev 3015/3,090B 97%]                                             Get:11 http://us.archive.ubuntu.com karmic/main libxcb1-dev 1.4-1 [78.8kB]
+                                             2% [11 libxcb1-dev 3938/78.8kB 4%]                                  Get:12 http://us.archive.ubuntu.com karmic/main libx11-dev 2:1.2.2-1ubuntu1 [1,920kB]
+3% [12 libx11-dev 2588/1,920kB 0%]                                  7% [12 libx11-dev 522428/1,920kB 27%]                                     12% [12 libx11-dev 1186268/1,920kB 61%]13% [12 libx11-dev 1325948/1,920kB 69%]                                       Get:13 http://us.archive.ubuntu.com karmic/main x11proto-xext-dev 7.0.4-2 [42.1kB]
+                                       18% [13 x11proto-xext-dev 5454/42.1kB 12%]                                          Get:14 http://us.archive.ubuntu.com karmic/main x11proto-fixes-dev 1:4.0-3 [13.9kB]
+                                          18% [14 x11proto-fixes-dev 10572/13.9kB 76%]                                            Get:15 http://us.archive.ubuntu.com karmic/main libxfixes-dev 1:4.0.3-2build1 [12.9kB]
+                                            18% [15 libxfixes-dev 5038/12.9kB 39%]                                      18% [Working]             Get:16 http://us.archive.ubuntu.com karmic/main x11proto-composite-dev 1:0.4-2 [12.4kB]
+             18% [16 x11proto-composite-dev 4096/12.4kB 33%]                                               18% [Working]             Get:17 http://us.archive.ubuntu.com karmic/main libxext-dev 2:1.0.99.1-0ubuntu4 [79.3kB]
+             18% [17 libxext-dev 0/79.3kB 0%]                                19% [Working]             Get:18 http://us.archive.ubuntu.com karmic/main libxcomposite-dev 1:0.4.0-4 [15.0kB]
+             19% [18 libxcomposite-dev 1789/15.0kB 11%]                                          19% [Waiting for headers]                         Get:19 http://us.archive.ubuntu.com karmic/main x11proto-render-dev 2:0.9.3-2 [7,096B]
+                         19% [19 x11proto-render-dev 7096/7,096B 100%]                                             19% [Working]             Get:20 http://us.archive.ubuntu.com karmic/main libxrender-dev 1:0.9.4-2ubuntu1 [29.5kB]
+             19% [20 libxrender-dev 12218/29.5kB 41%]                                        19% [Working]             Get:21 http://us.archive.ubuntu.com karmic/main libxcursor-dev 1:1.1.9-1build1 [32.4kB]
+             19% [21 libxcursor-dev 1090/32.4kB 3%]                                      19% [Waiting for headers]                         Get:22 http://us.archive.ubuntu.com karmic/main x11proto-damage-dev 1:1.1.0-2build1 [9,292B]
+                         19% [22 x11proto-damage-dev 1135/9,292B 12%]                                            19% [Working]             Get:23 http://us.archive.ubuntu.com karmic/main libxdamage-dev 1:1.1.1-4 [9,856B]
+             19% [23 libxdamage-dev 0/9,856B 0%]                                   20% [Working]             Get:24 http://us.archive.ubuntu.com karmic/main libfreetype6-dev 2.3.9-5 [710kB]
+             20% [24 libfreetype6-dev 12876/710kB 1%]                                        21% [24 libfreetype6-dev 133836/710kB 18%]                                          24% [24 libfreetype6-dev 547116/710kB 77%]                                                                       517kB/s 18s                                                                                                                            Get:25 http://us.archive.ubuntu.com karmic/main libfontconfig1-dev 2.6.0-1ubuntu12 [575kB]
+25% [25 libfontconfig1-dev 2140/575kB 0%]                                                                        517kB/s 18s                                                                                                                            Get:26 http://us.archive.ubuntu.com karmic/main libxft-dev 2.1.13-3ubuntu1 [64.1kB]
+30% [26 libxft-dev 4242/64.1kB 6%]                                                                               517kB/s 17s                                                                                                                            Get:27 http://us.archive.ubuntu.com karmic/main libxi-dev 2:1.2.1-2ubuntu1 [84.2kB]
+30% [27 libxi-dev 13231/84.2kB 15%]                                                                              517kB/s 17s                                                                                                                            Get:28 http://us.archive.ubuntu.com karmic/main x11proto-xinerama-dev 1.1.2-5ubuntu1 [5,772B]
+31% [28 x11proto-xinerama-dev 5772/5,772B 100%]                                                                  517kB/s 17s31% [Waiting for headers]                                                                                        517kB/s 17s                                                                                                                            Get:29 http://us.archive.ubuntu.com karmic/main libxinerama-dev 2:1.0.3-2 [11.7kB]
+                                                                                                                            Get:30 http://us.archive.ubuntu.com karmic/main x11proto-randr-dev 1.3.0-1 [37.7kB]
+31% [30 x11proto-randr-dev 5674/37.7kB 15%]                                                                      517kB/s 17s                                                                                                                            Get:31 http://us.archive.ubuntu.com karmic/main libxrandr-dev 2:1.3.0-2 [34.5kB]
+31% [31 libxrandr-dev 6592/34.5kB 19%]                                                                           517kB/s 17s                                                                                                                            Get:32 http://us.archive.ubuntu.com karmic/main html2text 1.3.2a-14 [101kB]
+31% [32 html2text 2022/101kB 1%]                                                                                 517kB/s 17s                                                                                                                            Get:33 http://us.archive.ubuntu.com karmic/main intltool-debian 0.35.0+20060710.1 [31.6kB]
+32% [33 intltool-debian 1198/31.6kB 3%]                                                                          517kB/s 16s                                                                                                                            Get:34 http://us.archive.ubuntu.com karmic/main po-debconf 1.0.16 [224kB]
+32% [34 po-debconf 996/224kB 0%]                                                                                 517kB/s 16s                                                                                                                            Get:35 http://us.archive.ubuntu.com karmic/main debhelper 7.3.15ubuntu3 [440kB]
+34% [35 debhelper 7164/440kB 1%]                                                                                 517kB/s 16s                                                                                                                            Get:36 http://us.archive.ubuntu.com karmic-updates/main libglib2.0-dev 2.22.3-0ubuntu1 [1,043kB]
+38% [36 libglib2.0-dev 1735/1,043kB 0%]                                                                          517kB/s 15s43% [36 libglib2.0-dev 664135/1,043kB 63%]                                                                       517kB/s 14s                                                                                                                            Get:37 http://us.archive.ubuntu.com karmic/main libatk1.0-dev 1.28.0-0ubuntu1 [79.5kB]
+46% [37 libatk1.0-dev 3740/79.5kB 4%]                                                                            517kB/s 13s                                                                                                                            Get:38 http://us.archive.ubuntu.com karmic-updates/main libpng12-dev 1.2.37-1ubuntu0.1 [255kB]
+46% [38 libpng12-dev 1730/255kB 0%]                                                                              517kB/s 13s                                                                                                                            Get:39 http://us.archive.ubuntu.com karmic/main libdirectfb-extra 1.2.7-2ubuntu1 [33.0kB]
+48% [39 libdirectfb-extra 1054/33.0kB 3%]                                                                        517kB/s 12s                                                                                                                            Get:40 http://us.archive.ubuntu.com karmic/main libjpeg62-dev 6b-14build1 [192kB]
+48% [40 libjpeg62-dev 3740/192kB 1%]                                                                             517kB/s 12s50% [Waiting for headers]                                                                                        517kB/s 12s                                                                                                                            Get:41 http://us.archive.ubuntu.com karmic/main libsysfs-dev 2.1.0-5 [35.0kB]
+50% [41 libsysfs-dev 2592/35.0kB 7%]                                                                             517kB/s 12s                                                                                                                            Get:42 http://us.archive.ubuntu.com karmic/main libdirectfb-dev 1.2.7-2ubuntu1 [850kB]
+50% [42 libdirectfb-dev 3272/850kB 0%]                                                                           517kB/s 12s55% [42 libdirectfb-dev 645512/850kB 75%]                                                                        517kB/s 11s                                                                                                                            Get:43 http://us.archive.ubuntu.com karmic/main libpixman-1-dev 0.14.0-1 [180kB]
+57% [43 libpixman-1-dev 646/180kB 0%]                                                                            517kB/s 10s58% [Waiting for headers]                                                                                        517kB/s 10s                                                                                                                            Get:44 http://us.archive.ubuntu.com karmic/main libxcb-render0-dev 1.4-1 [23.2kB]
+58% [44 libxcb-render0-dev 1466/23.2kB 6%]                                                                       517kB/s 10s                                                                                                                            Get:45 http://us.archive.ubuntu.com karmic/main libxcb-render-util0-dev 0.3.6-1 [7,504B]
+                                                                                                                            Get:46 http://us.archive.ubuntu.com karmic-updates/main libcairo2-dev 1.8.8-2ubuntu1.1 [590kB]
+58% [46 libcairo2-dev 3231/590kB 0%]                                                                             517kB/s 10s                                                                                                                            Get:47 http://us.archive.ubuntu.com karmic/main libdbus-1-dev 1.2.16-0ubuntu9 [196kB]
+63% [47 libdbus-1-dev 1401/196kB 0%]                                                                              517kB/s 9s                                                                                                                            Get:48 http://us.archive.ubuntu.com karmic/main libdbus-glib-1-dev 0.80-4ubuntu1 [96.0kB]
+65% [48 libdbus-glib-1-dev 2204/96.0kB 2%]                                                                        517kB/s 8s                                                                                                                            Get:49 http://us.archive.ubuntu.com karmic/main libpango1.0-dev 1.26.0-1 [387kB]
+65% [49 libpango1.0-dev 2350/387kB 0%]                                                                            517kB/s 8s68% [Waiting for headers]                                                                                         517kB/s 7s                                                                                                                            Get:50 http://us.archive.ubuntu.com karmic-updates/main libgtk2.0-dev 2.18.3-1ubuntu2.2 [3,058kB]
+68% [50 libgtk2.0-dev 14328/3,058kB 0%]                                                                           517kB/s 7s74% [50 libgtk2.0-dev 761092/3,058kB 24%]                                                                         517kB/s 6s79% [50 libgtk2.0-dev 1407652/3,058kB 46%]                                                                        517kB/s 5s84% [50 libgtk2.0-dev 2084452/3,058kB 68%]                                                                      1,301kB/s 1s90% [50 libgtk2.0-dev 2749732/3,058kB 89%]                                                                      1,301kB/s 0s                                                                                                                            Get:51 http://us.archive.ubuntu.com karmic/universe libinotify-ruby1.8 0.0.2-3 [8,006B]
+92% [51 libinotify-ruby1.8 2547/8,006B 31%]                                                                     1,301kB/s 0s92% [Waiting for headers]                                                                                       1,301kB/s 0s                                                                                                                            Get:52 http://us.archive.ubuntu.com karmic/universe libinotify-ruby 0.0.2-3 [3,604B]
+92% [Waiting for headers]                                                                                       1,301kB/s 0s                                                                                                                            Get:53 http://us.archive.ubuntu.com karmic/main libsys-hostname-long-perl 1.4-2 [11.4kB]
+92% [53 libsys-hostname-long-perl 3287/11.4kB 28%]                                                              1,301kB/s 0s92% [Waiting for headers]                                                                                       1,301kB/s 0s                                                                                                                            Get:54 http://us.archive.ubuntu.com karmic/main libmail-sendmail-perl 0.79.16-1 [26.5kB]
+92% [54 libmail-sendmail-perl 0/26.5kB 0%]                                                                      1,301kB/s 0s                                                                                                                            Get:55 http://us.archive.ubuntu.com karmic/main libnotify-dev 0.4.5-1ubuntu1 [16.6kB]
+92% [55 libnotify-dev 2181/16.6kB 13%]                                                                          1,301kB/s 0s                                                                                                                            Get:56 http://us.archive.ubuntu.com karmic/universe libglib2-ruby1.8 0.19.0-2ubuntu4 [107kB]
+92% [56 libglib2-ruby1.8 3983/107kB 3%]                                                                         1,301kB/s 0s                                                                                                                            Get:57 http://us.archive.ubuntu.com karmic/universe libatk1-ruby1.8 0.19.0-2ubuntu4 [34.5kB]
+93% [57 libatk1-ruby1.8 2883/34.5kB 8%]                                                                         1,301kB/s 0s93% [Waiting for headers]                                                                                       1,301kB/s 0s                                                                                                                            Get:58 http://us.archive.ubuntu.com karmic/universe libcairo-ruby1.8 1.8.0-1 [72.6kB]
+94% [58 libcairo-ruby1.8 4050/72.6kB 5%]                                                                        1,301kB/s 0s                                                                                                                            Get:59 http://us.archive.ubuntu.com karmic/universe libgdk-pixbuf2-ruby1.8 0.19.0-2ubuntu4 [27.5kB]
+94% [59 libgdk-pixbuf2-ruby1.8 1678/27.5kB 6%]                                                                  1,301kB/s 0s94% [Waiting for headers]                                                                                       1,301kB/s 0s                                                                                                                            Get:60 http://us.archive.ubuntu.com karmic/universe libpango1-ruby1.8 0.19.0-2ubuntu4 [52.1kB]
+94% [60 libpango1-ruby1.8 2574/52.1kB 4%]                                                                       1,301kB/s 0s95% [Waiting for headers]                                                                                       1,301kB/s 0s                                                                                                                            Get:61 http://us.archive.ubuntu.com karmic/universe libgtk2-ruby1.8 0.19.0-2ubuntu4 [315kB]
+95% [61 libgtk2-ruby1.8 4012/315kB 1%]                                                                          1,301kB/s 0s96% [61 libgtk2-ruby1.8 204172/315kB 64%]                                                                       1,301kB/s 0s97% [Working]                                                                                                   1,301kB/s 0s                                                                                                                            Get:62 http://us.archive.ubuntu.com karmic/universe libgtk2-ruby 0.19.0-2ubuntu4 [309kB]
+97% [62 libgtk2-ruby 13274/309kB 4%]                                                                            1,301kB/s 0s100% [Working]                                                                                                  1,301kB/s 0s                                                                                                                            Fetched 12.9MB in 14s (904kB/s)
+Extracting templates from packages: 48%Extracting templates from packages: 96%Extracting templates from packages: 100%
+Selecting previously deselected package x11proto-core-dev.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 160357 files and directories currently installed.)
+Unpacking x11proto-core-dev (from .../x11proto-core-dev_7.0.15-1_all.deb) ...
+Selecting previously deselected package libice-dev.
+Unpacking libice-dev (from .../libice-dev_2%3a1.0.5-1_i386.deb) ...
+Selecting previously deselected package libsm-dev.
+Unpacking libsm-dev (from .../libsm-dev_2%3a1.1.0-2_i386.deb) ...
+Selecting previously deselected package libxau-dev.
+Unpacking libxau-dev (from .../libxau-dev_1%3a1.0.4-2_i386.deb) ...
+Selecting previously deselected package libxdmcp-dev.
+Unpacking libxdmcp-dev (from .../libxdmcp-dev_1%3a1.0.2-3_i386.deb) ...
+Selecting previously deselected package x11proto-input-dev.
+Unpacking x11proto-input-dev (from .../x11proto-input-dev_1.5.0-2ubuntu1_all.deb) ...
+Selecting previously deselected package x11proto-kb-dev.
+Unpacking x11proto-kb-dev (from .../x11proto-kb-dev_1.0.3-3ubuntu1_all.deb) ...
+Selecting previously deselected package xtrans-dev.
+Unpacking xtrans-dev (from .../xtrans-dev_1.2.4-1_all.deb) ...
+Selecting previously deselected package libpthread-stubs0.
+Unpacking libpthread-stubs0 (from .../libpthread-stubs0_0.1-2_i386.deb) ...
+Selecting previously deselected package libpthread-stubs0-dev.
+Unpacking libpthread-stubs0-dev (from .../libpthread-stubs0-dev_0.1-2_i386.deb) ...
+Selecting previously deselected package libxcb1-dev.
+Unpacking libxcb1-dev (from .../libxcb1-dev_1.4-1_i386.deb) ...
+Selecting previously deselected package libx11-dev.
+Unpacking libx11-dev (from .../libx11-dev_2%3a1.2.2-1ubuntu1_i386.deb) ...
+Selecting previously deselected package x11proto-xext-dev.
+Unpacking x11proto-xext-dev (from .../x11proto-xext-dev_7.0.4-2_all.deb) ...
+Selecting previously deselected package x11proto-fixes-dev.
+Unpacking x11proto-fixes-dev (from .../x11proto-fixes-dev_1%3a4.0-3_all.deb) ...
+Selecting previously deselected package libxfixes-dev.
+Unpacking libxfixes-dev (from .../libxfixes-dev_1%3a4.0.3-2build1_i386.deb) ...
+Selecting previously deselected package x11proto-composite-dev.
+Unpacking x11proto-composite-dev (from .../x11proto-composite-dev_1%3a0.4-2_all.deb) ...
+Selecting previously deselected package libxext-dev.
+Unpacking libxext-dev (from .../libxext-dev_2%3a1.0.99.1-0ubuntu4_i386.deb) ...
+Selecting previously deselected package libxcomposite-dev.
+Unpacking libxcomposite-dev (from .../libxcomposite-dev_1%3a0.4.0-4_i386.deb) ...
+Selecting previously deselected package x11proto-render-dev.
+Unpacking x11proto-render-dev (from .../x11proto-render-dev_2%3a0.9.3-2_all.deb) ...
+Selecting previously deselected package libxrender-dev.
+Unpacking libxrender-dev (from .../libxrender-dev_1%3a0.9.4-2ubuntu1_i386.deb) ...
+Selecting previously deselected package libxcursor-dev.
+Unpacking libxcursor-dev (from .../libxcursor-dev_1%3a1.1.9-1build1_i386.deb) ...
+Selecting previously deselected package x11proto-damage-dev.
+Unpacking x11proto-damage-dev (from .../x11proto-damage-dev_1%3a1.1.0-2build1_all.deb) ...
+Selecting previously deselected package libxdamage-dev.
+Unpacking libxdamage-dev (from .../libxdamage-dev_1%3a1.1.1-4_i386.deb) ...
+Selecting previously deselected package libfreetype6-dev.
+Unpacking libfreetype6-dev (from .../libfreetype6-dev_2.3.9-5_i386.deb) ...
+Selecting previously deselected package libfontconfig1-dev.
+Unpacking libfontconfig1-dev (from .../libfontconfig1-dev_2.6.0-1ubuntu12_i386.deb) ...
+Selecting previously deselected package libxft-dev.
+Unpacking libxft-dev (from .../libxft-dev_2.1.13-3ubuntu1_i386.deb) ...
+Selecting previously deselected package libxi-dev.
+Unpacking libxi-dev (from .../libxi-dev_2%3a1.2.1-2ubuntu1_i386.deb) ...
+Selecting previously deselected package x11proto-xinerama-dev.
+Unpacking x11proto-xinerama-dev (from .../x11proto-xinerama-dev_1.1.2-5ubuntu1_all.deb) ...
+Selecting previously deselected package libxinerama-dev.
+Unpacking libxinerama-dev (from .../libxinerama-dev_2%3a1.0.3-2_i386.deb) ...
+Selecting previously deselected package x11proto-randr-dev.
+Unpacking x11proto-randr-dev (from .../x11proto-randr-dev_1.3.0-1_all.deb) ...
+Selecting previously deselected package libxrandr-dev.
+Unpacking libxrandr-dev (from .../libxrandr-dev_2%3a1.3.0-2_i386.deb) ...
+Selecting previously deselected package html2text.
+Unpacking html2text (from .../html2text_1.3.2a-14_i386.deb) ...
+Selecting previously deselected package intltool-debian.
+Unpacking intltool-debian (from .../intltool-debian_0.35.0+20060710.1_all.deb) ...
+Selecting previously deselected package po-debconf.
+Unpacking po-debconf (from .../po-debconf_1.0.16_all.deb) ...
+Selecting previously deselected package debhelper.
+Unpacking debhelper (from .../debhelper_7.3.15ubuntu3_all.deb) ...
+Selecting previously deselected package libglib2.0-dev.
+Unpacking libglib2.0-dev (from .../libglib2.0-dev_2.22.3-0ubuntu1_i386.deb) ...
+Selecting previously deselected package libatk1.0-dev.
+Unpacking libatk1.0-dev (from .../libatk1.0-dev_1.28.0-0ubuntu1_i386.deb) ...
+Selecting previously deselected package libpng12-dev.
+Unpacking libpng12-dev (from .../libpng12-dev_1.2.37-1ubuntu0.1_i386.deb) ...
+Selecting previously deselected package libdirectfb-extra.
+Unpacking libdirectfb-extra (from .../libdirectfb-extra_1.2.7-2ubuntu1_i386.deb) ...
+Selecting previously deselected package libjpeg62-dev.
+Unpacking libjpeg62-dev (from .../libjpeg62-dev_6b-14build1_i386.deb) ...
+Selecting previously deselected package libsysfs-dev.
+Unpacking libsysfs-dev (from .../libsysfs-dev_2.1.0-5_i386.deb) ...
+Selecting previously deselected package libdirectfb-dev.
+Unpacking libdirectfb-dev (from .../libdirectfb-dev_1.2.7-2ubuntu1_i386.deb) ...
+Selecting previously deselected package libpixman-1-dev.
+Unpacking libpixman-1-dev (from .../libpixman-1-dev_0.14.0-1_i386.deb) ...
+Selecting previously deselected package libxcb-render0-dev.
+Unpacking libxcb-render0-dev (from .../libxcb-render0-dev_1.4-1_i386.deb) ...
+Selecting previously deselected package libxcb-render-util0-dev.
+Unpacking libxcb-render-util0-dev (from .../libxcb-render-util0-dev_0.3.6-1_i386.deb) ...
+Selecting previously deselected package libcairo2-dev.
+Unpacking libcairo2-dev (from .../libcairo2-dev_1.8.8-2ubuntu1.1_i386.deb) ...
+Selecting previously deselected package libdbus-1-dev.
+Unpacking libdbus-1-dev (from .../libdbus-1-dev_1.2.16-0ubuntu9_i386.deb) ...
+Selecting previously deselected package libdbus-glib-1-dev.
+Unpacking libdbus-glib-1-dev (from .../libdbus-glib-1-dev_0.80-4ubuntu1_i386.deb) ...
+Selecting previously deselected package libpango1.0-dev.
+Unpacking libpango1.0-dev (from .../libpango1.0-dev_1.26.0-1_i386.deb) ...
+Selecting previously deselected package libgtk2.0-dev.
+Unpacking libgtk2.0-dev (from .../libgtk2.0-dev_2.18.3-1ubuntu2.2_i386.deb) ...
+Selecting previously deselected package libinotify-ruby1.8.
+Unpacking libinotify-ruby1.8 (from .../libinotify-ruby1.8_0.0.2-3_i386.deb) ...
+Selecting previously deselected package libinotify-ruby.
+Unpacking libinotify-ruby (from .../libinotify-ruby_0.0.2-3_all.deb) ...
+Selecting previously deselected package libsys-hostname-long-perl.
+Unpacking libsys-hostname-long-perl (from .../libsys-hostname-long-perl_1.4-2_all.deb) ...
+Selecting previously deselected package libmail-sendmail-perl.
+Unpacking libmail-sendmail-perl (from .../libmail-sendmail-perl_0.79.16-1_all.deb) ...
+Selecting previously deselected package libnotify-dev.
+Unpacking libnotify-dev (from .../libnotify-dev_0.4.5-1ubuntu1_i386.deb) ...
+Selecting previously deselected package libglib2-ruby1.8.
+Unpacking libglib2-ruby1.8 (from .../libglib2-ruby1.8_0.19.0-2ubuntu4_i386.deb) ...
+Selecting previously deselected package libatk1-ruby1.8.
+Unpacking libatk1-ruby1.8 (from .../libatk1-ruby1.8_0.19.0-2ubuntu4_i386.deb) ...
+Selecting previously deselected package libcairo-ruby1.8.
+Unpacking libcairo-ruby1.8 (from .../libcairo-ruby1.8_1.8.0-1_i386.deb) ...
+Selecting previously deselected package libgdk-pixbuf2-ruby1.8.
+Unpacking libgdk-pixbuf2-ruby1.8 (from .../libgdk-pixbuf2-ruby1.8_0.19.0-2ubuntu4_i386.deb) ...
+Selecting previously deselected package libpango1-ruby1.8.
+Unpacking libpango1-ruby1.8 (from .../libpango1-ruby1.8_0.19.0-2ubuntu4_i386.deb) ...
+Selecting previously deselected package libgtk2-ruby1.8.
+Unpacking libgtk2-ruby1.8 (from .../libgtk2-ruby1.8_0.19.0-2ubuntu4_i386.deb) ...
+Selecting previously deselected package libgtk2-ruby.
+Unpacking libgtk2-ruby (from .../libgtk2-ruby_0.19.0-2ubuntu4_all.deb) ...
+Processing triggers for man-db ...
+Processing triggers for doc-base ...
+Processing 4 added doc-base file(s)...
+Registering documents with scrollkeeper...
+Setting up x11proto-core-dev (7.0.15-1) ...
+Setting up libice-dev (2:1.0.5-1) ...
+Setting up libsm-dev (2:1.1.0-2) ...
+Setting up libxau-dev (1:1.0.4-2) ...
+Setting up libxdmcp-dev (1:1.0.2-3) ...
+Setting up x11proto-input-dev (1.5.0-2ubuntu1) ...
+Setting up x11proto-kb-dev (1.0.3-3ubuntu1) ...
+Setting up xtrans-dev (1.2.4-1) ...
+Setting up libpthread-stubs0 (0.1-2) ...
+Setting up libpthread-stubs0-dev (0.1-2) ...
+Setting up libxcb1-dev (1.4-1) ...
+Setting up libx11-dev (2:1.2.2-1ubuntu1) ...
+Setting up x11proto-xext-dev (7.0.4-2) ...
+Setting up x11proto-fixes-dev (1:4.0-3) ...
+Setting up libxfixes-dev (1:4.0.3-2build1) ...
+Setting up x11proto-composite-dev (1:0.4-2) ...
+Setting up libxext-dev (2:1.0.99.1-0ubuntu4) ...
+Setting up libxcomposite-dev (1:0.4.0-4) ...
+Setting up x11proto-render-dev (2:0.9.3-2) ...
+Setting up libxrender-dev (1:0.9.4-2ubuntu1) ...
+Setting up libxcursor-dev (1:1.1.9-1build1) ...
+Setting up x11proto-damage-dev (1:1.1.0-2build1) ...
+Setting up libxdamage-dev (1:1.1.1-4) ...
+Setting up libfreetype6-dev (2.3.9-5) ...
+Setting up libfontconfig1-dev (2.6.0-1ubuntu12) ...
+
+Setting up libxft-dev (2.1.13-3ubuntu1) ...
+Setting up libxi-dev (2:1.2.1-2ubuntu1) ...
+Setting up x11proto-xinerama-dev (1.1.2-5ubuntu1) ...
+Setting up libxinerama-dev (2:1.0.3-2) ...
+Setting up x11proto-randr-dev (1.3.0-1) ...
+Setting up libxrandr-dev (2:1.3.0-2) ...
+Setting up html2text (1.3.2a-14) ...
+
+Setting up intltool-debian (0.35.0+20060710.1) ...
+Setting up po-debconf (1.0.16) ...
+Setting up debhelper (7.3.15ubuntu3) ...
+Setting up libglib2.0-dev (2.22.3-0ubuntu1) ...
+Setting up libatk1.0-dev (1.28.0-0ubuntu1) ...
+Setting up libpng12-dev (1.2.37-1ubuntu0.1) ...
+Setting up libdirectfb-extra (1.2.7-2ubuntu1) ...
+Setting up libjpeg62-dev (6b-14build1) ...
+Setting up libsysfs-dev (2.1.0-5) ...
+
+Setting up libdirectfb-dev (1.2.7-2ubuntu1) ...
+Setting up libpixman-1-dev (0.14.0-1) ...
+Setting up libxcb-render0-dev (1.4-1) ...
+Setting up libxcb-render-util0-dev (0.3.6-1) ...
+Setting up libcairo2-dev (1.8.8-2ubuntu1.1) ...
+Setting up libdbus-1-dev (1.2.16-0ubuntu9) ...
+Setting up libdbus-glib-1-dev (0.80-4ubuntu1) ...
+Setting up libpango1.0-dev (1.26.0-1) ...
+Setting up libgtk2.0-dev (2.18.3-1ubuntu2.2) ...
+Setting up libinotify-ruby1.8 (0.0.2-3) ...
+Setting up libinotify-ruby (0.0.2-3) ...
+Setting up libsys-hostname-long-perl (1.4-2) ...
+Setting up libmail-sendmail-perl (0.79.16-1) ...
+Setting up libnotify-dev (0.4.5-1ubuntu1) ...
+Setting up libglib2-ruby1.8 (0.19.0-2ubuntu4) ...
+Setting up libatk1-ruby1.8 (0.19.0-2ubuntu4) ...
+Setting up libcairo-ruby1.8 (1.8.0-1) ...
+Setting up libgdk-pixbuf2-ruby1.8 (0.19.0-2ubuntu4) ...
+Setting up libpango1-ruby1.8 (0.19.0-2ubuntu4) ...
+Setting up libgtk2-ruby1.8 (0.19.0-2ubuntu4) ...
+Setting up libgtk2-ruby (0.19.0-2ubuntu4) ...
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ sudo gem install zentest autotest autotest-rails red-green launchy
+ERROR:  could not find gem zentest locally or in a repository
+Successfully installed autotest-4.2.9
+Successfully installed autotest-rails-4.1.0
+ERROR:  could not find gem red-green locally or in a repository
+Successfully installed launchy-0.3.5
+3 gems installed
+Installing ri documentation for autotest-4.2.9...
+Installing ri documentation for autotest-rails-4.1.0...
+Installing ri documentation for launchy-0.3.5...
+Installing RDoc documentation for autotest-4.2.9...
+Installing RDoc documentation for autotest-rails-4.1.0...
+Installing RDoc documentation for launchy-0.3.5...
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ wget http://rubyforge.org/frs/download.php/27134/ruby-libnotify-0.3.3.tar.bz2
+--2010-04-22 19:20:56--  http://rubyforge.org/frs/download.php/27134/ruby-libnotify-0.3.3.tar.bz2
+Resolving rubyforge.org... 205.234.109.19
+Connecting to rubyforge.org|205.234.109.19|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://files.rubyforge.vm.bytemark.co.uk/ruby-libnotify/ruby-libnotify-0.3.3.tar.bz2 [following]
+--2010-04-22 19:20:57--  http://files.rubyforge.vm.bytemark.co.uk/ruby-libnotify/ruby-libnotify-0.3.3.tar.bz2
+Resolving files.rubyforge.vm.bytemark.co.uk... 80.68.94.54
+Connecting to files.rubyforge.vm.bytemark.co.uk|80.68.94.54|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21363 (21K) [application/x-tar]
+Saving to: `ruby-libnotify-0.3.3.tar.bz2'
+
+ 0% [                                                                                    ] 0           --.-K/s              32% [==========================>                                                         ] 6,899       27.5K/s              65% [======================================================>                             ] 14,099      28.1K/s              100%[===================================================================================>] 21,363      42.1K/s   in 0.5s    
+
+2010-04-22 19:20:58 (42.1 KB/s) - `ruby-libnotify-0.3.3.tar.bz2' saved [21363/21363]
+
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ cd ../../
+]0;gal@ubuntu: ~gal@ubuntu:~$ cd ../../wget http://rubyforge.org/frs/download.php/27134/ruby-libnotify-0.3.3.tar.bz2
+--2010-04-22 19:21:14--  http://rubyforge.org/frs/download.php/27134/ruby-libnotify-0.3.3.tar.bz2
+Resolving rubyforge.org... 205.234.109.19
+Connecting to rubyforge.org|205.234.109.19|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://files.rubyforge.vm.bytemark.co.uk/ruby-libnotify/ruby-libnotify-0.3.3.tar.bz2 [following]
+--2010-04-22 19:21:15--  http://files.rubyforge.vm.bytemark.co.uk/ruby-libnotify/ruby-libnotify-0.3.3.tar.bz2
+Resolving files.rubyforge.vm.bytemark.co.uk... 80.68.94.54
+Connecting to files.rubyforge.vm.bytemark.co.uk|80.68.94.54|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21363 (21K) [application/x-tar]
+Saving to: `ruby-libnotify-0.3.3.tar.bz2'
+
+ 0% [                                                                                    ] 0           --.-K/s              32% [==========================>                                                         ] 6,899       25.9K/s              65% [======================================================>                             ] 14,099      26.5K/s              100%[===================================================================================>] 21,363      39.7K/s   in 0.5s    
+
+2010-04-22 19:21:16 (39.7 KB/s) - `ruby-libnotify-0.3.3.tar.bz2' saved [21363/21363]
+
+]0;gal@ubuntu: ~gal@ubuntu:~$ tar -xvjpf ruby-libnotify-0.3.3.tar.bz2
+ruby-libnotify-0.3.3/
+ruby-libnotify-0.3.3/doc/
+ruby-libnotify-0.3.3/doc/files/
+ruby-libnotify-0.3.3/doc/files/lib/
+ruby-libnotify-0.3.3/doc/files/lib/RNotify_rb.html
+ruby-libnotify-0.3.3/doc/files/rnotify_c.html
+ruby-libnotify-0.3.3/doc/index.html
+ruby-libnotify-0.3.3/doc/rdoc-style.css
+ruby-libnotify-0.3.3/doc/fr_method_index.html
+ruby-libnotify-0.3.3/doc/fr_class_index.html
+ruby-libnotify-0.3.3/doc/fr_file_index.html
+ruby-libnotify-0.3.3/doc/created.rid
+ruby-libnotify-0.3.3/doc/classes/
+ruby-libnotify-0.3.3/doc/classes/Notify.src/
+ruby-libnotify-0.3.3/doc/classes/Notify.src/M000001.html
+ruby-libnotify-0.3.3/doc/classes/Notify.src/M000002.html
+ruby-libnotify-0.3.3/doc/classes/Notify.src/M000003.html
+ruby-libnotify-0.3.3/doc/classes/Notify.src/M000004.html
+ruby-libnotify-0.3.3/doc/classes/Notify.src/M000005.html
+ruby-libnotify-0.3.3/doc/classes/Notify.src/M000006.html
+ruby-libnotify-0.3.3/doc/classes/Notify/
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000008.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000009.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000010.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000011.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000012.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000013.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000014.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000015.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000016.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000017.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000018.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000019.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000020.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000021.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000022.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000023.html
+ruby-libnotify-0.3.3/doc/classes/Notify/Notification.src/M000007.html
+ruby-libnotify-0.3.3/doc/classes/Notify.html
+ruby-libnotify-0.3.3/lib/
+ruby-libnotify-0.3.3/lib/RNotify.rb
+ruby-libnotify-0.3.3/README
+ruby-libnotify-0.3.3/extconf.rb
+ruby-libnotify-0.3.3/rnotify.c
+ruby-libnotify-0.3.3/rnotify.h
+ruby-libnotify-0.3.3/misc.c
+ruby-libnotify-0.3.3/AUTHORS
+ruby-libnotify-0.3.3/INSTALL
+ruby-libnotify-0.3.3/examples/
+ruby-libnotify-0.3.3/examples/xy.rb
+ruby-libnotify-0.3.3/examples/markup.rb
+ruby-libnotify-0.3.3/examples/multi-actions.rb
+ruby-libnotify-0.3.3/examples/attach_to_status_icon.rb
+ruby-libnotify-0.3.3/examples/urgency.rb
+ruby-libnotify-0.3.3/examples/attach_to.rb
+ruby-libnotify-0.3.3/examples/base.rb
+ruby-libnotify-0.3.3/examples/update.rb
+ruby-libnotify-0.3.3/examples/action.rb
+ruby-libnotify-0.3.3/examples/info.rb
+ruby-libnotify-0.3.3/examples/geometry-hints.rb
+ruby-libnotify-0.3.3/ChangeLog
+ruby-libnotify-0.3.3/COPYING
+]0;gal@ubuntu: ~gal@ubuntu:~$ cd  ruby-libnotify-0.3.3
+]0;gal@ubuntu: ~/ruby-libnotify-0.3.3gal@ubuntu:~/ruby-libnotify-0.3.3$ ruby extconf.rb
+gtk2.rb.. yes
+checking for notify_init() in -lnotify... yes
+with geometry hints.. yes
+with GtkStatusIcon.. yes
+creating Makefile
+]0;gal@ubuntu: ~/ruby-libnotify-0.3.3gal@ubuntu:~/ruby-libnotify-0.3.3$ make
+gcc -I. -I. -I/usr/lib/ruby/1.8/i486-linux -I. -D_FILE_OFFSET_BITS=64  -fPIC -fno-strict-aliasing -g -g -O2  -fPIC  -Wall -I/usr/local/lib/site_ruby/1.8/i486-linux -D_REENTRANT -I/usr/include/gtk-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/directfb -I/usr/include/libpng12   -DHAVE_GEOMETRY_HINTS -DHAVE_STATUS_ICON  -c misc.c
+In file included from misc.c:5:
+rnotify.h:14:23: error: rbgobject.h: No such file or directory
+make: *** [misc.o] Error 1
+]0;gal@ubuntu: ~/ruby-libnotify-0.3.3gal@ubuntu:~/ruby-libnotify-0.3.3$ sudo make install
+gcc -I. -I. -I/usr/lib/ruby/1.8/i486-linux -I. -D_FILE_OFFSET_BITS=64  -fPIC -fno-strict-aliasing -g -g -O2  -fPIC  -Wall -I/usr/local/lib/site_ruby/1.8/i486-linux -D_REENTRANT -I/usr/include/gtk-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/directfb -I/usr/include/libpng12   -DHAVE_GEOMETRY_HINTS -DHAVE_STATUS_ICON  -c misc.c
+In file included from misc.c:5:
+rnotify.h:14:23: error: rbgobject.h: No such file or directory
+make: *** [misc.o] Error 1
+]0;gal@ubuntu: ~/ruby-libnotify-0.3.3gal@ubuntu:~/ruby-libnotify-0.3.3$ cdd[K ../
+]0;gal@ubuntu: ~gal@ubuntu:~$ cd Dev/sample
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ cd Dev/sample[Kautotest
+loading autotest/rails
+style: Rails
+/home/gal/.autotest:1: undefined method `quire' for main:Object (NoMethodError)
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:203:in `load'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:203:in `load_custom_extensions'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:202:in `each'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:202:in `load_custom_extensions'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:192:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-rails-4.1.0/lib/autotest/rails.rb:7:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:132:in `new'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:132:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/autotest:54
+	from /usr/bin/autotest:19:in `load'
+	from /usr/bin/autotest:19
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autotestcd Dev/sample../[Ksudo make install[11Pcd ../Dev/sample[5Pautotest[Kautospec
+loading autotest/rails_rspec
+style: RailsRspec
+/home/gal/.autotest:1: undefined method `quire' for main:Object (NoMethodError)
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load_without_new_constant_marking'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:203:in `load_custom_extensions'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:202:in `each'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:202:in `load_custom_extensions'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:192:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/lib/autotest/rspec.rb:24:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:132:in `new'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:132:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/autotest:54
+	from /usr/bin/autotest:19:in `load'
+	from /usr/bin/autotest:19
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ spec spec/
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31m'PagesController GET 'about' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:40:
+
+2)
+[31m'PagesController GET 'contact' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:27:
+
+Finished in 0.40489 seconds
+
+[31m6 examples, 2 failures[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ spec spec/[2Pautospectest
+loading autotest/rails
+style: Rails
+^Z
+[8]+  Stopped                 autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ RSPEC=true[K[K[K[K[K[K[K[K[K[KRSPEC=true autotest
+loading autotest/rails_rspec
+style: RailsRspec
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31m'PagesController GET 'about' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:40:
+
+2)
+[31m'PagesController GET 'contact' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:27:
+
+Finished in 0.251651 seconds
+
+[31m6 examples, 2 failures[0m
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31m'PagesController GET 'about' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:40:
+
+2)
+[31m'PagesController GET 'contact' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:27:
+
+Finished in 0.261236 seconds
+
+[31m6 examples, 2 failures[0m
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[31mF[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+1)
+[31m'PagesController GET 'about' should have the right title' FAILED
+Expected at least 1 element matching "title", found 0.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:40:
+
+Finished in 0.260933 seconds
+
+[31m6 examples, 1 failure[0m
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.246049 seconds
+
+[32m6 examples, 0 failures[0m
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.249449 seconds
+
+[32m6 examples, 0 failures[0m
+script/server
+^Z
+[9]+  Stopped                 RSPEC=true autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ RSPEC=true autotest
+loading autotest/rails_rspec
+style: RailsRspec
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rnotify (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /home/gal/.autotest:11
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load_without_new_constant_marking'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:203:in `load_custom_extensions'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:202:in `each'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:202:in `load_custom_extensions'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:192:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/lib/autotest/rspec.rb:24:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:132:in `new'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/../lib/autotest.rb:132:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/autotest-4.2.9/bin/autotest:54
+	from /usr/bin/autotest:19:in `load'
+	from /usr/bin/autotest:19
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ RSPEC=true autotest
+loading autotest/rails_rspec
+style: RailsRspec
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.419845 seconds
+
+[32m6 examples, 0 failures[0m
+^[[B^[[A        ^Z
+[10]+  Stopped                 RSPEC=true autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ RSPEC=true autotest
+loading autotest/rails_rspec
+style: RailsRspec
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.229781 seconds
+
+[32m6 examples, 0 failures[0m
+"6 examples, 0 failures"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.001041 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ RSPEC=true autotest[11Pautotest
+loading autotest/rails
+style: Rails
+
+# Waiting since 2010-04-22 19:38:48
+
+
+# Waiting since 2010-04-22 19:39:02
+
+^Z
+[11]+  Stopped                 autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ autotestRSPEC=true autotest
+loading autotest/rails_rspec
+style: RailsRspec
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31m'PagesController GET 'contact' should have the right title' FAILED
+<"Ruby on Rails Tutorial Sample App | Contact"> expected but was
+<"Ruby on Rails Tutorial Sample App | Cont">.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:27:
+
+Finished in 0.251764 seconds
+
+[31m6 examples, 1 failure[0m
+"6 examples, 1 failure"
+Loaded suite /usr/bin/autotest
+Started
+
+Finished in 0.000758 seconds.
+
+[32m0 tests, 0 assertions, 0 failures, 0 errors[0m
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ RSPEC=true autotest
+loading autotest/rails_rspec
+style: RailsRspec
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31m'PagesController GET 'contact' should have the right title' FAILED
+<"Ruby on Rails Tutorial Sample App | Contact"> expected but was
+<"Ruby on Rails Tutorial Sample App | Cont">.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:27:
+
+Finished in 0.250869 seconds
+
+[31m6 examples, 1 failure[0m
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m[31mF[0m[32m.[0m[32m.[0m
+
+1)
+[31m'PagesController GET 'contact' should have the right title' FAILED
+<"Ruby on Rails Tutorial Sample App | Contact"> expected but was
+<"Ruby on Rails Tutorial Sample App | Cont">.
+<false> is not true.[0m
+/home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb:27:
+
+Finished in 0.32784 seconds
+
+[31m6 examples, 1 failure[0m
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.236605 seconds
+
+[32m6 examples, 0 failures[0m
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/gem_dependency.rb:119:Warning: Gem::Dependency#version_requirements is deprecated and will be removed on or after August 2010.  Use #requirement
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m
+
+Finished in 0.231145 seconds
+
+[32m6 examples, 0 failures[0m
+^[[A^[[B        script/server
+^Z
+[12]+  Stopped                 RSPEC=true autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ RSPEC=true autotest
+loading autotest/rails_rspec
+style: RailsRspec
+/usr/bin/ruby1.8 /usr/lib/ruby/gems/1.8/gems/rspec-1.3.0/bin/spec --autospec /home/gal/Dev/sample/spec/controllers/pages_controller_spec.rb -O spec/spec.opts 
+^Z
+[13]+  Stopped                 RSPEC=true autotest
+]0;gal@ubuntu: ~/Dev/samplegal@ubuntu:~/Dev/sample$ script/server
+=> Booting WEBrick
+=> Rails 2.3.5 application starting on http://0.0.0.0:3000
+=> Call with -d to detach
+=> Ctrl-C to shutdown server
+[2010-04-22 19:41:50] INFO  WEBrick 1.3.1
+[2010-04-22 19:41:50] INFO  ruby 1.8.7 (2009-06-12) [i486-linux]
+[2010-04-22 19:42:05] WARN  TCPServer Error: Address already in use - bind(2)
+Exiting
+/usr/lib/ruby/1.8/webrick/utils.rb:73:in `initialize': Address already in use - bind(2) (Errno::EADDRINUSE)
+	from /usr/lib/ruby/1.8/webrick/utils.rb:73:in `new'
+	from /usr/lib/ruby/1.8/webrick/utils.rb:73:in `create_listeners'
+	from /usr/lib/ruby/1.8/webrick/utils.rb:70:in `each'
+	from /usr/lib/ruby/1.8/webrick/utils.rb:70:in `create_listeners'
+	from /usr/lib/ruby/1.8/webrick/server.rb:75:in `listen'
+	from /usr/lib/ruby/1.8/webrick/server.rb:63:in `initialize'
+	from /usr/lib/ruby/1.8/webrick/httpserver.rb:24:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:10:in `new'
+	from /usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:10:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/r
